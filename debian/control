@@ -1,0 +1,12 @@
+Source: ros-melodic-heron-gazebo
+Section: misc
+Priority: optional
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-heron-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-hector-gazebo-plugins, ros-melodic-heron-msgs, ros-melodic-interactive-marker-twist-server, ros-melodic-nav-msgs, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-tf, ros-melodic-uuv-gazebo-ros-plugins-msgs, ros-melodic-uuv-gazebo-worlds
+Description: Simulator package for Heron
