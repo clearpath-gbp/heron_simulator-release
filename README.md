@@ -1,3 +1,28 @@
+## heron_simulator (kinetic) - 0.3.2-1
+
+The packages in the `heron_simulator` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -r kinetic -t kinetic heron_simulator` on `Fri, 19 Feb 2021 17:02:33 -0000`
+
+These packages were released:
+- `heron_gazebo`
+- `heron_simulator`
+
+Version of package(s) in repository `heron_simulator`:
+
+- upstream repository: https://github.com/heron/heron_simulator.git
+- release repository: https://github.com/clearpath-gbp/heron_simulator-release.git
+- rosdistro version: `0.3.1-1`
+- old version: `0.3.1-1`
+- new version: `0.3.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.1`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## heron_simulator (melodic) - 0.3.1-1
 
 The packages in the `heron_simulator` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic heron_simulator` on `Fri, 12 Feb 2021 20:38:11 -0000`
