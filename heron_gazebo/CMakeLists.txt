@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.0.2)
 project(heron_gazebo)
 
 find_package(catkin REQUIRED)
@@ -13,4 +13,8 @@ catkin_install_python(PROGRAMS
    scripts/twist_translate
    scripts/vector3_to_magnetic_field
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+install(DIRECTORY config launch worlds
+  DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
