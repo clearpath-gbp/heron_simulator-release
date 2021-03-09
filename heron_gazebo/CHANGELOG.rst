@@ -2,6 +2,11 @@
 Changelog for package heron_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.3 (2021-03-09)
+------------------
+* Pass the config arg to the heron_description package correctly
+* Contributors: Chris Iverach-Brereton
+
 0.3.2 (2021-02-19)
 ------------------
 * Bumped CMake version to avoid author warning.
